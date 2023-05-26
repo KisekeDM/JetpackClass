@@ -58,8 +58,10 @@ fun cartoon() {
                 .background(color = Color.White)
                 .padding(all = 30.dp)
         ) {
-            Column(modifier = Modifier.padding(all = 15.dp).background(color = Color.White)) {
-                Text(text = "POWERPUFF GIRLS", fontSize = 20.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold)
+            Row(modifier = Modifier
+                .padding(all = 15.dp)
+                .background(color = Color.White)) {
+
                 Image(
                     painter = painterResource(id = R.drawable.powerpuffgirls),
                     contentDescription = "POWERPUFF GIRLS",
@@ -67,6 +69,11 @@ fun cartoon() {
                         .size(width = 150.dp, height = 200.dp)
                         .clip(shape = RectangleShape)
                 )
+                Column() {
+                    Text(text = "POWERPUFF GIRLS", fontSize = 30.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold)
+                    Text(text = "Human", fontSize = 20.sp, fontStyle = FontStyle.Italic)
+                    Text(text = "Alive", fontSize = 20.sp, fontStyle = FontStyle.Italic)
+                }
             }
         }
 
@@ -78,9 +85,9 @@ fun cartoon() {
                 .background(color = Color.White)
                 .padding(all = 30.dp)
         ) {
-            Column(modifier = Modifier.padding(all = 15.dp).background(color = Color.White)) {
-                Text(text = "BEN 10", fontSize = 20.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold)
-
+            Row(modifier = Modifier
+                .padding(all = 15.dp)
+                .background(color = Color.White)) {
                 Image(
                     painter = painterResource(id = R.drawable.ben10),
                     contentDescription = "BEN 10",
@@ -88,6 +95,11 @@ fun cartoon() {
                         .size(width = 200.dp, height = 200.dp)
                         .clip(shape = RectangleShape)
                 )
+                Column() {
+                    Text(text = "BEN 10", fontSize = 30.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold)
+                    Text(text = "Human", fontSize = 20.sp, fontStyle = FontStyle.Italic)
+                    Text(text = "Alive", fontSize = 20.sp, fontStyle = FontStyle.Italic)
+                }
             }
         }
 
@@ -99,8 +111,9 @@ fun cartoon() {
                 .background(color = Color.White)
                 .padding(all = 30.dp)
         ) {
-            Column(modifier = Modifier.padding(all = 15.dp).background(color = Color.White)) {
-                Text(text = "POPEYE", fontSize = 20.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold)
+            Row(modifier = Modifier
+                .padding(all = 15.dp)
+                .background(color = Color.White)) {
                 Image(
                     painter = painterResource(id = R.drawable.popeye),
                     contentDescription = "POPEYE",
@@ -109,6 +122,11 @@ fun cartoon() {
                         .clip(shape = RectangleShape)
 
                 )
+                Column() {
+                    Text(text = "POPEYE", fontSize = 30.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold)
+                    Text(text = "Human", fontSize = 20.sp, fontStyle = FontStyle.Italic)
+                    Text(text = "Alive", fontSize = 20.sp, fontStyle = FontStyle.Italic)
+                }
 
             }
         }
@@ -121,8 +139,9 @@ fun cartoon() {
                 .background(color = Color.White)
                 .padding(all = 30.dp)
         ) {
-            Column(modifier = Modifier.padding(all = 15.dp).background(color = Color.White)) {
-                Text(text = "TEEN TITAN", fontSize = 20.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold)
+            Row(modifier = Modifier
+                .padding(all = 15.dp)
+                .background(color = Color.White)) {
 
                 Image(
                     painter = painterResource(id = R.drawable.teentitan),
@@ -131,6 +150,11 @@ fun cartoon() {
                         .size(width = 200.dp, height = 200.dp)
                         .clip(shape = RectangleShape)
                 )
+                Column() {
+                    Text(text = "TEEN TITAN", fontSize = 30.sp, fontStyle = FontStyle.Italic, fontWeight = FontWeight.Bold)
+                    Text(text = "Human", fontSize = 20.sp, fontStyle = FontStyle.Italic)
+                    Text(text = "Alive", fontSize = 20.sp, fontStyle = FontStyle.Italic)
+                }
             }
         }
 
